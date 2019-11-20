@@ -1,0 +1,107 @@
+/* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/css/materialFont.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #e0e0e0;
+}
+
+table {
+  font-size: 1.2rem;
+}
+
+#row1 {
+  margin-top: 2.2rem;
+}
+
+#main-gpa1 {
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+  border: 1px solid #000;
+  width: 95%;
+  height: 100%;
+  border-radius: 7px;
+  display: block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 3px;
+}
+
+#main-gpa2 {
+  margin-top: 20px;
+  border: 1px solid #000;
+  width: 95%;
+  height: 80%;
+  border-radius: 7px;
+  display: none;
+  padding: -15px;
+  line-height: 20px;
+  font-size: 0.5rem;
+}
+
+.input-field {
+  padding: -15px;
+  margin: -5px;
+  font: 14px;
+}
+
+#course-div {
+  margin-top: 30px;
+}
+
+#gpa-button {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  height: 100%;
+}
+
+#idNumber,
+#viewIdNumber {
+  text-transform: uppercase;
+}
+
+#gpaHeader {
+  text-align: center;
+  font-weight: 600;
+}
+
+#viewGPA {
+  font-weight: 700;
+}
+
+.gpa-button {
+  margin-bottom: 20px;
+  position: relative;
+  left: 40%;
+  margin-right: 10px;
+}
+
+#gpaResult {
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-align: center;
+}
